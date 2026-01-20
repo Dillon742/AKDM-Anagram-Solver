@@ -6,7 +6,6 @@ A Python program to solve anagrams by identifying valid words and presenting alt
 
 import sys
 from collections import defaultdict
-from itertools import permutations
 
 
 class AnagramSolver:
@@ -56,7 +55,7 @@ class AnagramSolver:
         """Load a small default set of words for demonstration."""
         default_words = [
             'listen', 'silent', 'enlist', 'inlets', 'tinsel',
-            'eart', 'rate', 'tear', 'tare',
+            'heart', 'rate', 'tear', 'tare', 'earth', 'hater',
             'stop', 'post', 'spot', 'tops', 'pots', 'opts',
             'evil', 'vile', 'live', 'veil',
             'angel', 'angle', 'glean',
